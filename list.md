@@ -1,4 +1,4 @@
-# 列表清单
+# 规划目标
 
 ## 功能篇
 
@@ -83,6 +83,18 @@
 - setTimeout 与 Promise
 - 单元测试
 
+---
+
+    https://juejin.im/post/5bdfb387e51d452c8e0aa902#heading-4
+    https://juejin.im/post/5ca0c0abe51d4553a942c17d
+    https://juejin.im/post/5bdfb387e51d452c8e0aa902#heading-18
+    https://juejin.im/post/5daeefc8e51d4524f007fb15#heading-114
+    https://juejin.im/post/5bdfb387e51d452c8e0aa902#heading-4
+    https://juejin.im/post/5a06d6546fb9a045076f232a
+    https://juejin.im/post/5bdfb387e51d452c8e0aa902#heading-25
+    https://juejin.im/post/5c6e6063f265da2da53ec8f3
+    https://juejin.im/post/5daeefc8e51d4524f007fb15#heading-101
+
 ## 组件实施篇
 
 - 拖拽
@@ -102,6 +114,10 @@
 - 前端路由组件
 - 正则处理器（email、idcard、phone、url、chinese、html/xml - tag）
 
+---
+
+    https://juejin.im/post/5ce108275188250ef043ee20#heading-61
+
 ## 计模式篇
 
 - 简单工厂模式
@@ -112,6 +128,10 @@
 - 桥接模式
 - 模块方法模式
 - 观察者模式
+
+---
+
+    https://juejin.im/post/5daeefc8e51d4524f007fb15#heading-99
 
 ## 算法与数据结构篇
 
@@ -129,3 +149,21 @@
   - 树
 - diff 算法
 - 散列表
+
+---
+
+    https://juejin.im/post/5daeefc8e51d4524f007fb15#heading-88
+    https://juejin.im/post/5cfddfd8e51d455d6d5357e3#heading-19
+    https://juejin.im/post/5c72280351882562914edb61
+    https://juejin.im/post/5daeefc8e51d4524f007fb15#heading-94
+
+## 参考链接：
+
+    https://juejin.im/collection/5caff345f265da034622650e
+    https://www.cnblogs.com/HCJJ/p/5084664.html
+    https://github.com/wuxianqiang/libraries
+    https://www.yuque.com/selaginella/behxuy
+    https://juejin.im/post/5a091afe6fb9a044ff30f402
+    https://segmentfault.com/a/1190000010225928
+    https://juejin.im/post/5da1a04ae51d45783d6122bf
+    https://juejin.im/post/5da1a04ae51d45783d6122bf
