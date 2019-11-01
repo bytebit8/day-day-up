@@ -43,6 +43,83 @@ a(b(c(d())))
 
 ## 实现
 
+function compose(funs) {
+    var combin = null;
+    for (var i = 0; i < funs.length; i++) {
+        combin = (function (i, combin) {
+            return combin ? function () { combin(funs[i]()) } : function () {
+                funs[i]()
+            }
+        }(i, combin))
+    }
+    return combin;
+}
+
+var flow = function(fns) {
+    var len = fns.length
+    var index = len
+    return function(...args) {
+        var index = 0
+        var reslut = len ? fns[index].apply(this, args) : args[0]
+        while (++index < len) {
+            reslut = fns[index].call(this, reslut)
+        }
+        return reslut
+    }
+}
+
+
+function compose(...arr) {
+    return function(...arr2) {
+        (function aa(n) {
+            if (n < arr.length - 1) {
+                return arr[n](aa(++n))
+            } else {
+                return arr[n](...arr2);
+            }
+        })(0)
+    }
+}
+
+
+var compose = function(...fns) {
+    var len = fns.length // 记录我们传入所有函数的个数
+    var index = len - 1 // 游标记录函数执行情况, 也作为我们运行fns中的中函数的索引
+    var reslut // 结果, 每次函数执行完成后, 向下传递
+    return function f1(...arg1) {
+        reslut = fns[index].apply(this, arg1)
+        if (index <= 0) {
+            index = len - 1 
+            return reslut
+        }
+        --index
+        return f1.call(null, reslut)
+    }
+}
+
+function compose(...funcs) {
+    if (funcs.length === 0) {
+        return arg => arg
+    }
+
+    if (funcs.length === 1) {
+        return funcs[0]
+    }
+
+    return funcs.reduce((a, b) => (...args) => a(b(...args)))
+}
+
+function compose(...funs) {
+    if (funs.length === 0) {
+        return arg => arg
+    }
+    if (funs.length === 1) {
+        return funs[0]
+    }
+
+    return funs.reverse().reduce((a, b) => (...arg) => b(a(arg)));
+}
+
 ## 参考
 
 > https://segmentfault.com/a/1190000008394749
