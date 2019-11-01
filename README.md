@@ -9,6 +9,7 @@
 ## 实施进行中 🚧
 
 - [x] [`void` 与 `undefined` ](./Article/void-and-undefined.md)
+- [x] [`立即执行函数表达式` ](./Article/immediately-invoked-function-expression.md)
 
 ## 功能篇
 
