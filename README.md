@@ -9,12 +9,14 @@
 ## 实施进行中 🚧
 
 - [ ] [`compose` 组合函数](./Article/compose.md)
-- [x] [`立即执行函数表达式`](./Article/immediately-invoked-function-expression.md)
-- [x] [`void` 与 `undefined`](./Article/void-and-undefined.md)
+- [ ] HTML 字符编码
+- [ ] 获取窗口尺寸
 
 ## 功能篇
 
 ## 文章篇
+- [x] [`立即执行函数表达式`](./Article/immediately-invoked-function-expression.md)
+- [x] [`void` 与 `undefined`](./Article/void-and-undefined.md)
 
 ## 组件实施篇
 
