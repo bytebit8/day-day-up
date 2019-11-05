@@ -3,7 +3,7 @@
 ## 功能篇
 
 - 对象
-  - 深克隆
+  - 深克隆 
   - 比较
   - 判断空对象
   - create()
@@ -18,11 +18,9 @@
   - bind()
   - sleep 函数
 - String
-
   - padStart()
   - padEnd()
   - trim()
-
 - 获取窗口尺寸
 - HTML 字符编码
 - URL
@@ -54,8 +52,8 @@
 
 ## 文章篇
 
-- `void` 与 `undefined`
-- 立即执行函数表达式
+- `void` 与 `undefined` ☑
+- 立即执行函数表达式 ☑
 - 对 this 对象的理解
 - 函数“防抖”与“节流”
 - 函数“柯里化”
