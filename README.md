@@ -8,8 +8,8 @@
 
 ## 实施进行中 🚧
 
-- [ ] [`compose` 组合函数](./Article/compose.md)
-- [ ] HTML 字符编码
+- [x] [`compose` 组合函数](./Article/compose.md)
+- [ ] [HTML 标记转义](./Functional/htmlEscape.md)
 - [ ] 获取窗口尺寸
 
 ## 功能篇
