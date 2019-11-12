@@ -21,14 +21,13 @@
   - padStart()
   - padEnd()
   - trim()
-- 获取窗口尺寸
-- HTML 字符编码
+- 获取窗口尺寸 ✅
+- HTML 标记转义 ✅ 
 - URL
-  - 对象序列化 URL
+  - 对象序列化为 URL 参数
   - 通过 `<a>` 标签来解析 URL 信息
   - 获取 URL 参数
 - DOM
-
   - 倒序排列子节点
   - classList
   - contains
@@ -47,8 +46,7 @@
 - parseInt 与 移位运算符
 - memoize 缓存函数
 - 时间戳快速格式化
-- 阻止 mouseWhell 连续触发（防抖/节流原理）
-- 检测密码强度
+
 
 ## 文章篇
 
@@ -112,6 +110,7 @@
 - 简单视差库
 - 前端路由组件
 - 正则处理器（email、idcard、phone、url、chinese、html/xml - tag）
+- 密码强度检测
 
 ---
 
