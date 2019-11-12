@@ -13,17 +13,19 @@
 
 ```js
 function getWindowSize() {
+  var docElement =
+    document.scrollingElement || document.documentElement || document.body;
   return {
     width:
       window.innerWidth ||
-      document.scrollingElement.clientWidth ||
-      document.documentElement.clientWidth ||
-      document.body.clientWidth,
+      docElement.clientWidth ||
+      docElement.clientWidth ||
+      docElement.clientWidth,
     height:
       window.innerHeight ||
-      document.scrollingElement.clientHeight ||
-      document.documentElement.clientHeight ||
-      document.body.clientHeight
+      docElement.clientHeight ||
+      docElement.clientHeight ||
+      docElement.clientHeight
   };
 }
 ```
