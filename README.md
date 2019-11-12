@@ -8,11 +8,13 @@
 
 ## 实施进行中 🚧
 
-- [x] [HTML 标记转义](./Functional/htmlEscape.md)
-- [x] [获取窗口尺寸](./Functional/getWindowSize.md)
+- [ ] 对象序列化为 URL 参数
 - [ ] 对 this 对象的理解
+- [ ] 滚动条位置插件
 
 ## 功能篇
+- [x] [HTML 标记转义](./Functional/htmlEscape.md)
+- [x] [获取窗口尺寸](./Functional/getWindowSize.md)
 
 ## 文章篇
 
